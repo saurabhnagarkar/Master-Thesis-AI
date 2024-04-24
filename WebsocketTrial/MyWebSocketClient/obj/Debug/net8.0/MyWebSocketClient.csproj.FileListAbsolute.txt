@@ -1,0 +1,15 @@
+/Users/saurabhnagarkar/Desktop/MasterThesis/WebsocketTrial/MyWebSocketClient/bin/Debug/net8.0/MyWebSocketClient
+/Users/saurabhnagarkar/Desktop/MasterThesis/WebsocketTrial/MyWebSocketClient/bin/Debug/net8.0/MyWebSocketClient.deps.json
+/Users/saurabhnagarkar/Desktop/MasterThesis/WebsocketTrial/MyWebSocketClient/bin/Debug/net8.0/MyWebSocketClient.runtimeconfig.json
+/Users/saurabhnagarkar/Desktop/MasterThesis/WebsocketTrial/MyWebSocketClient/bin/Debug/net8.0/MyWebSocketClient.dll
+/Users/saurabhnagarkar/Desktop/MasterThesis/WebsocketTrial/MyWebSocketClient/bin/Debug/net8.0/MyWebSocketClient.pdb
+/Users/saurabhnagarkar/Desktop/MasterThesis/WebsocketTrial/MyWebSocketClient/obj/Debug/net8.0/MyWebSocketClient.GeneratedMSBuildEditorConfig.editorconfig
+/Users/saurabhnagarkar/Desktop/MasterThesis/WebsocketTrial/MyWebSocketClient/obj/Debug/net8.0/MyWebSocketClient.AssemblyInfoInputs.cache
+/Users/saurabhnagarkar/Desktop/MasterThesis/WebsocketTrial/MyWebSocketClient/obj/Debug/net8.0/MyWebSocketClient.AssemblyInfo.cs
+/Users/saurabhnagarkar/Desktop/MasterThesis/WebsocketTrial/MyWebSocketClient/obj/Debug/net8.0/MyWebSocketClient.csproj.CoreCompileInputs.cache
+/Users/saurabhnagarkar/Desktop/MasterThesis/WebsocketTrial/MyWebSocketClient/obj/Debug/net8.0/MyWebSocketClient.dll
+/Users/saurabhnagarkar/Desktop/MasterThesis/WebsocketTrial/MyWebSocketClient/obj/Debug/net8.0/refint/MyWebSocketClient.dll
+/Users/saurabhnagarkar/Desktop/MasterThesis/WebsocketTrial/MyWebSocketClient/obj/Debug/net8.0/MyWebSocketClient.pdb
+/Users/saurabhnagarkar/Desktop/MasterThesis/WebsocketTrial/MyWebSocketClient/obj/Debug/net8.0/MyWebSocketClient.genruntimeconfig.cache
+/Users/saurabhnagarkar/Desktop/MasterThesis/WebsocketTrial/MyWebSocketClient/obj/Debug/net8.0/ref/MyWebSocketClient.dll
+/Users/saurabhnagarkar/Desktop/MasterThesis/WebsocketTrial/MyWebSocketClient/obj/Debug/net8.0/MyWebSocketClient.sourcelink.json
