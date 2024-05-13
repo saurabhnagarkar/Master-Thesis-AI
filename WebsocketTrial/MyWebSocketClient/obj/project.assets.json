@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/saurabhnagarkar/Desktop/Thesis Project/MasterThesis/WebsocketTrial/MyWebSocketClient/MyWebSocketClient.csproj",
+      "projectUniqueName": "/Users/saurabhnagarkar/Master-Thesis-AI/WebsocketTrial/MyWebSocketClient/MyWebSocketClient.csproj",
       "projectName": "MyWebSocketClient",
-      "projectPath": "/Users/saurabhnagarkar/Desktop/Thesis Project/MasterThesis/WebsocketTrial/MyWebSocketClient/MyWebSocketClient.csproj",
+      "projectPath": "/Users/saurabhnagarkar/Master-Thesis-AI/WebsocketTrial/MyWebSocketClient/MyWebSocketClient.csproj",
       "packagesPath": "/Users/saurabhnagarkar/.nuget/packages/",
-      "outputPath": "/Users/saurabhnagarkar/Desktop/Thesis Project/MasterThesis/WebsocketTrial/MyWebSocketClient/obj/",
+      "outputPath": "/Users/saurabhnagarkar/Master-Thesis-AI/WebsocketTrial/MyWebSocketClient/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/saurabhnagarkar/.nuget/NuGet/NuGet.Config"

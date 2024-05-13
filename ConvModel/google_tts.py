@@ -1,13 +1,13 @@
 from google.cloud import texttospeech
 import os
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/Users/saurabhnagarkar/Desktop/MasterThesis/inlaid-reactor-418023-bcce207793e3.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/Users/saurabhnagarkar/Master-Thesis-AI/ConvModel/inlaid-reactor-418023-bcce207793e3.json'
 
 client = texttospeech.TextToSpeechClient()
 # Instantiates a client
 
 
 # Set the text input to be synthesized
-def google_tts(inputtxt):
+def google_tts(inputtxt, output_filepath):
     synthesis_input = texttospeech.SynthesisInput(text=inputtxt)
 
     # Build the voice request
@@ -27,11 +27,10 @@ def google_tts(inputtxt):
         input=synthesis_input, voice=voice, audio_config=audio_config
     )
 
-    # Save the audio to a file
-    with open("output.mp3", "wb") as out:
+    # Save the audio to a file, overwriting the existing file each time
+    with open(output_filepath, "wb") as out:
         out.write(response.audio_content)
-        print("Audio content written to file 'output.mp3'")
-
+        print(f"Audio content written to file '{output_filepath}'")
 
     # Play the output file
-    os.system("afplay output.mp3")
+    return output_filepath
