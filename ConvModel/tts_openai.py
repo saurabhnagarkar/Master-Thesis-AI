@@ -9,7 +9,7 @@ client = OpenAI()
 speech_file_path = Path(__file__).parent / "speech.mp3"
 
 # Create audio speech
-def tts_openai(txt):
+def tts_openai(txt, output_filepath):
     response = client.audio.speech.create(
     model="tts-1-hd",
     voice="onyx",   
@@ -18,9 +18,10 @@ def tts_openai(txt):
 
     # Write the audio data to a file
     if response.content:
-        with open(speech_file_path, 'wb') as f:
-            f.write(response.content)
-        print("Audio file created successfully.")
+        with open(output_filepath, "wb") as out:
+            out.write(response.audio_content)
+            print(f"Audio content written to file '{output_filepath}'")
+        
 
         # Play the audio file
         playsound(str(speech_file_path))
